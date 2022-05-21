@@ -1,0 +1,10 @@
+*.o
+*.a
+*.bin
+*.zip
+*.old
+*.code-workspace
+/build/
+build/
+ESP8266_RTOS_SDK/
+/xtensa-lx106-elf/
