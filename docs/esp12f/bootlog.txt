@@ -1,0 +1,37 @@
+AT+RST
+
+OK
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x40100000, len 1856, room 16 
+tail 0
+chksum 0x63
+load 0x3ffe8000, len 776, room 8 
+tail 0
+chksum 0x02
+load 0x3ffe8310, len 552, room 8 
+tail 0
+chksum 0x79
+csum 0x79
+
+2nd boot version : 1.5
+  SPI Speed      : 40MHz
+  SPI Mode       : DOUT
+  SPI Flash Size & Map: 32Mbit(512KB+512KB)
+jump to run user1 @ 1000
+
+屸?俷?抮傭n|?ll鞄l屸r抣宭?l`屸r抣靗?l`屸r抣帪?ll`rl巶rl尀鈱bl宐r|巄p`靗靊lr宭b?騨顎nn?宭騪l?l寧???巐?l€n?尀鈱bl鞄p尀鈱bl宐prlrl
+Ai-Thinker Technology Co. Ltd.
+
+ready
+AT+GMR
+AT version:1.2.0.0(Jul  1 2016 20:04:45)
+SDK version:1.5.4.1(39cb9a32)
+Ai-Thinker Technology Co. Ltd.
+Dec  2 2016 14:21:16
+OK
+AT+CSYSID
++CSYSID:CHIP:004D0945;FLASH:001640C8;KEY:CD06B456;
+
+OK
